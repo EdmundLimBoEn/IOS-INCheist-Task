@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		55A28A5C2E5C62F7000C5FBF /* SwiftPersistence in Frameworks */ = {isa = PBXBuildFile; productRef = 55A28A5B2E5C62F7000C5FBF /* SwiftPersistence */; };
 		55D527DF2E658DF40099C5A0 /* BeginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D527DE2E658DF40099C5A0 /* BeginView.swift */; };
+		55D527E72E6593FB0099C5A0 /* IntroduceCornerKesslerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D527E62E6593FB0099C5A0 /* IntroduceCornerKesslerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		55A28A4C2E5C5B6F000C5FBF /* IOS INCheist Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS INCheist Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D527DE2E658DF40099C5A0 /* BeginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginView.swift; sourceTree = "<group>"; };
+		55D527E62E6593FB0099C5A0 /* IntroduceCornerKesslerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroduceCornerKesslerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -39,6 +41,7 @@
 		55A28A432E5C5B6F000C5FBF = {
 			isa = PBXGroup;
 			children = (
+				55D527E62E6593FB0099C5A0 /* IntroduceCornerKesslerView.swift */,
 				55D527DE2E658DF40099C5A0 /* BeginView.swift */,
 				55A28A4E2E5C5B6F000C5FBF /* IOS INCheist Task */,
 				55A28A4D2E5C5B6F000C5FBF /* Products */,
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55D527DF2E658DF40099C5A0 /* BeginView.swift in Sources */,
+				55D527E72E6593FB0099C5A0 /* IntroduceCornerKesslerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
