@@ -17,7 +17,10 @@ struct IntroduceCornerKesslerView: View {
             VStack {
                 Text("This is corner kessler, he is here to help you")
                     .font(.largeTitle)
+                Text("jk hes purely cosmetic cuz we dont know how to code")
+                    .font(.system(size: 12))
                 Text("he is different from other kesslers, he is in the corner")
+                    .font(.title)
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color.clear)

@@ -9,10 +9,18 @@ import SwiftUI
 
 struct BeginView: View {
     var body: some View {
-        Text("welcome to INCheist investigation")
+        NavigationStack {
+            Text("welcome to INCheist investigation")
+            NavigationLink{
+                IntroduceCornerKesslerView()
+            } label:
+            {
+                Text("I got you a friend, click here to meet him")
+            }
+            
+        }
     }
 }
-
 #Preview {
     BeginView()
 }
