@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55A28A5C2E5C62F7000C5FBF /* SwiftPersistence in Frameworks */ = {isa = PBXBuildFile; productRef = 55A28A5B2E5C62F7000C5FBF /* SwiftPersistence */; };
 		55D527DF2E658DF40099C5A0 /* BeginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D527DE2E658DF40099C5A0 /* BeginView.swift */; };
 		55D527E72E6593FB0099C5A0 /* IntroduceCornerKesslerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D527E62E6593FB0099C5A0 /* IntroduceCornerKesslerView.swift */; };
 /* End PBXBuildFile section */
@@ -31,7 +30,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55A28A5C2E5C62F7000C5FBF /* SwiftPersistence in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +74,6 @@
 			);
 			name = "IOS INCheist Task";
 			packageProductDependencies = (
-				55A28A5B2E5C62F7000C5FBF /* SwiftPersistence */,
 			);
 			productName = "IOS INCheist Task";
 			productReference = 55A28A4C2E5C5B6F000C5FBF /* IOS INCheist Task.app */;
@@ -107,7 +104,6 @@
 			mainGroup = 55A28A432E5C5B6F000C5FBF;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				55A28A5A2E5C62F7000C5FBF /* XCRemoteSwiftPackageReference "SwiftPersistence" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 55A28A4D2E5C5B6F000C5FBF /* Products */;
@@ -337,25 +333,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		55A28A5A2E5C62F7000C5FBF /* XCRemoteSwiftPackageReference "SwiftPersistence" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/cheesetan/SwiftPersistence";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.1.2;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		55A28A5B2E5C62F7000C5FBF /* SwiftPersistence */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 55A28A5A2E5C62F7000C5FBF /* XCRemoteSwiftPackageReference "SwiftPersistence" */;
-			productName = SwiftPersistence;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 55A28A442E5C5B6F000C5FBF /* Project object */;
 }
