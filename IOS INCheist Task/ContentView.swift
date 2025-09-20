@@ -5,7 +5,6 @@
 //  Created by Lim Bo En Edmund on 25/8/25.
 // tesadlkjfhasdlkjfhlkjh
 import SwiftUI
-
 struct ContentView: View {
     @State private var showJoshuaSpeech = false
     @State private var showNextButton = false
